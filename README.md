@@ -7,7 +7,7 @@ SergeyMedzhidov/django-pg
 ````
 $ git clone https://github.com/SergeyMedzhidov/devops-sf_sp2.git
 $ cd devops-sf_sp2/charts/
-$ helm upgrade --install --namespace default --values db-chart/values.yaml mydb db
-$ helm upgrade --install --namespace default --values app-chart/values.yaml myapp app
+$ helm upgrade --install --namespace default --values db/values.yaml mydb db
+$ helm upgrade --install --namespace default --values app/values.yaml myapp app
 ````
 Зайти в приложение можно по адресу ноды http://ip-node:5000
