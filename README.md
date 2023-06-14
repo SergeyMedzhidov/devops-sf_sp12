@@ -1,7 +1,7 @@
 # devops-sf_sp2
-'''diff
+```diff
 Генерируем образ в DockerHub
-'''
+```
 SergeyMedzhidov/django-pg
 Деплой проекта с Helm Charts:
 ````
