@@ -1,9 +1,9 @@
 # devops-sf_sp2
+- Генерируем образ в DockerHub
 ```diff
-Генерируем образ в DockerHub
-```
 SergeyMedzhidov/django-pg
-Деплой проекта с Helm Charts:
+```
+- Деплой проекта с Helm Charts:
 ````
 $ git clone https://github.com/SergeyMedzhidov/devops-sf_sp2.git
 $ cd devops-sf_sp2/charts/
